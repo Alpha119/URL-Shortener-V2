@@ -13,7 +13,7 @@ async def get_shortlink(link, x):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://droplink/api'
+    url = f'https://hypelinks.tk/api'
     params = {'api': DROPLINK_API,
               'url': link,
               'alias': x
